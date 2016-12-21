@@ -1,0 +1,113 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2em;
+    padding: 0;
+}
+
+/* header  */
+
+.head{
+    display: flex;
+    width: 100%;
+    margin: 2em auto 1em auto;
+    border-bottom: 2px solid #7d97ad;
+}
+
+.text{
+    text-align: right;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.logo{
+    margin: 2em auto 1em 1em;
+    width: 50%;
+}
+
+/*main image */
+.sec1{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    margin:1em auto ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first{
+    max-height: 500px;
+    flex-grow: 1;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.first:last-of-type{
+    padding-right: 0;
+}
+
+.web{
+    width: 100%;
+    height: auto;
+}
+
+.android{
+    width: 100%;
+    height: auto;
+}
+
+.robotics{
+    width: 100%;
+    height: auto;
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #aaa;
+}
+
+.content{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    color: #2d3c49;
+    margin-bottom: 0.1em;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.heading{
+     font-family: "Lato", sans-serif;
+     font-weight: 400;
+     color: #7d97ad;
+     margin-bottom: 0.2em;
+}
+
+.name{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #aaa;
+}
+
+.job{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #aaa;
+}
